@@ -273,7 +273,7 @@
       text-align: center;
     }
     .main section.page2 {
-      background: #555557 url(back-phone.png) no-repeat center -150px ;
+      background: #555557 no-repeat center -150px ;
     }
     .main section.page2 > img {
       position: absolute;
@@ -304,7 +304,7 @@
       color: #FFF;
       }
     .main section.page3 {
-      background:url(tilted-phone.png) no-repeat 156px -150px ;
+      background-color: rgb(60,64,73);
     }
     .main section.page3 .page_container {
       overflow: hidden;
@@ -317,10 +317,10 @@
       margin-bottom: 0;
       font-size: 70px;
       letter-spacing: -1px;
-      color: black;
+      color: rgba(255,255,255,1.0);
     }
     .main section.page3 h2 {
-      color: rgba(0,0,0,0.85);
+      color: rgba(255,255,255,0.85);
       text-align: left;
       line-height: 160%;
       font-weight: 100;
@@ -377,6 +377,30 @@
     .cutout {
     	text-decoration: line-through;
     }
+
+    .social-icons {
+    	background-image: url('./icons.jpg');
+  		background-repeat: no-repeat;
+  		width: 129px;
+  		height: 129px;
+  		display: inline-block;
+    }
+
+    .fb {
+    	background-position: -342px -227px;
+    }
+    .g {
+    	background-position: -496px -227px;
+    }
+    .twt {
+    	background-position: -645px -227px;
+    }
+    .lknd {
+    	background-position: -652px -669px;
+    }
+    .github {
+    	background-position: -196px -817px;
+    }
     
     body.disabled-onepage-scroll .main section.page3 .page_container {
       width: 90%;
@@ -426,8 +450,13 @@
           <h1>Wanna contact?</h1>
           <h2>I am open for projects, freelancing, consultation in the lines of Full Stack Web Development, Elasticsearch Development for developing fuzzy Search engines and on the lines of NLP (Natural Language Processing) for consumer faced products.</h2>
           <hr />
-          <h2>Drop a mail to debarko89@gmail.com</h2>
+          <h2>Drop a mail to <a href="mailto:debarko89@gmail.com">debarko89@gmail.com</a></h2>
           <hr />
+          <a href="https://github.com/debarko" target="_blank" class="social-icons github"></a>
+          <a href="https://in.linkedin.com/in/debarkode" target="_blank" class="social-icons lknd"></a>
+          <a href="https://twitter.com/debarko" target="_blank" class="social-icons twt"></a>
+          <a href="https://www.facebook.com/debarko" target="_blank" class="social-icons fb"></a>
+          <a href="https://plus.google.com/+debarkode" target="_blank" class="social-icons g"></a>
   	    </div>
       </section>
     </div>
