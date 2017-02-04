@@ -20,12 +20,16 @@
 	</script>
     <style>
         body {
-            margin: 0 auto;
-            max-width: 50em;
             font-family: "Helvetica", "Arial", sans-serif;
             line-height: 2;
-            padding: 4em 1em;
             color: #555;
+            margin: 0px;
+            padding: 0px;
+        }
+        .main {
+            padding: 4em 1em;
+            margin: 0 auto;
+            max-width: 50em;
         }
         h1 {
             margin-top: 1em;
@@ -46,13 +50,47 @@
             border-left: 2px solid #69c;
             padding: 1em;
         }
+        header {
+            background-color: #263d36;
+            line-height: 1.2;
+            padding: 10vw 2em;
+            text-align: center;
+        }
+        header h1,h2 {
+            color: white;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+
+        header a {
+            border: 1px solid #e81c4f;
+            border-radius: 290486px;
+            color: white;
+            font-size: 0.6em;
+            letter-spacing: 0.2em;
+            padding: 1em 2em;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: none 200ms ease-out;
+            transition-property: color, background;
+        }
+
+        header a:hover {
+            background:  #e81c4f;
+            color: white;
+        }
     </style>
 </head>
 <body>
+    <header id="header">
+        <img src="./tux_dither.png" id="logo" width="50px"/>
+        <h2>Debarko De</h2>
+        <p>
+            <a href="http://debarko.de">@debarko</a>
+        </p>
+    </header>
+    <div class="main">
     <section>
-        <img src="./tux.jpg" width="20px"/>
-        <br />
-        <h1>Debarko De</h1>
         He is a Computer Science Engineer based out of Bangalore, currently working at <a href="https://twitter.com/practodev" target="_blank">@Practo</a>. Alumnus of <a href="http://smu.edu.in/smit.html/viewpage.php" target="_blank">SMIT</a> loves to break, understand and recreate stuff in his own way. Web Development and Neural Netoworks keep him busy. He specialises in Convolutional Neural Networks, Javascript, PHP, Elasticsearch, HTML and CSS. Notable Experiences include <a target="_blank" href="https://www.practo.com/for-doctors/ray">Doctor SaaS platform</a>, <a target="_blank" href="http://hashcube.com/">Mobile Games</a>, <a target="_blank" href="http://gadgets.ndtv.com/apps/news/practo-pilots-medicine-ordering-service-in-bengaluru-795094">eCommerce platform</a>.
     </section>
     <section>
@@ -76,6 +114,7 @@
             <h3>Contact Debarko</h3>
             <a href="https://twitter.com/debarko" target="_blank">Twitter</a> | <a href="https://www.facebook.com/debarko" target="_blank">Facebook</a> | <a href="https://github.com/debarko" target="_blank">Github</a> | <a href="https://500px.com/debarko" target="_blank">500px</a> | <a href="https://www.linkedin.com/in/debarkode" target="_blank">Linkedin</a>
     </section>
+    </div>
 </body>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 </html>
